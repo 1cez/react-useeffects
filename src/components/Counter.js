@@ -11,7 +11,7 @@ function Counter() {
     }, 1000);
 
     return () => {
-      console.log(clearInterval(interval));
+      console.log(clearInterval(interval)); {/*Unmount*/}
     };
   }, []);
 
